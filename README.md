@@ -59,8 +59,8 @@ Corpo da requisição: json
     ```bash
     {
        "nomeDoEvento": "Novo Nome do Evento",
-        "dataDoEvento": "2024-10-21",
-        "pilotos": ["Piloto 3", "Piloto 4"]
+       "dataDoEvento": "2024-10-21",
+       "pilotos": ["Piloto 3", "Piloto 4"]
     }
 
 - DELETE /corrida/:id
