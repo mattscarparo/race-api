@@ -57,11 +57,11 @@ Retorna uma corrida específica pelo ID. Neste caso, é necessário substituir o
 Atualiza uma corrida existente.
 Corpo da requisição: json
     ```bash
-        {
-        "nomeDoEvento": "Novo Nome do Evento",
+    {
+       "nomeDoEvento": "Novo Nome do Evento",
         "dataDoEvento": "2024-10-21",
         "pilotos": ["Piloto 3", "Piloto 4"]
-        }
+    }
 
 - DELETE /corrida/:id
 Deleta uma corrida pelo ID. Neste caso, é necessário substituir o ":id" pelo número do id da corrida.
