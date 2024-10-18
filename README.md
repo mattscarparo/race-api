@@ -40,12 +40,12 @@ Antes de começar, você precisará ter o Node.js e o npm instalados em seu sist
 
 - POST /corrida: Cria uma nova corrida.
 Corpo da requisição: json
-
-{
-  "nomeDoEvento": "Nome do Evento",
-  "dataDoEvento": "2024-10-20",
-  "pilotos": ["Piloto 1", "Piloto 2"]
-}
+    ```bash
+    {
+        "nomeDoEvento": "Nome do Evento",
+        "dataDoEvento": "2024-10-20",
+        "pilotos": ["Piloto 1", "Piloto 2"]
+    }
 
 - GET /todasAsCorridas
 Retorna todas as corridas.
@@ -56,12 +56,12 @@ Retorna uma corrida específica pelo ID. Neste caso, é necessário substituir o
 - PUT /corrida/
 Atualiza uma corrida existente.
 Corpo da requisição: json
-
-{
-  "nomeDoEvento": "Novo Nome do Evento",
-  "dataDoEvento": "2024-10-21",
-  "pilotos": ["Piloto 3", "Piloto 4"]
-}
+    ```bash
+        {
+        "nomeDoEvento": "Novo Nome do Evento",
+        "dataDoEvento": "2024-10-21",
+        "pilotos": ["Piloto 3", "Piloto 4"]
+        }
 
 - DELETE /corrida/:id
 Deleta uma corrida pelo ID. Neste caso, é necessário substituir o ":id" pelo número do id da corrida.
